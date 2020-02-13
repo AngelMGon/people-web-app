@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: people-web-app
-        image: iad.ocir.io/gse00013828/oracleimc/people-web-app:1.0
+        image: fra.ocir.io/fr4lx5pi474w/oracleimc/people-web-app:1.0
         env:
          - name: REACT_APP_API_BASE_URL
            value: "http://people-service"
